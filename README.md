@@ -1,14 +1,13 @@
 # KDD-Project
-Team:
 
+### Project: Prediction for trending videos on YouTube in USA.
+
+### Team:
 1. Narendra Pahuja
 2. Akshay Popli
 3. Monika Chandrashekara
-4. Prerna Chandrashekar
+4. Prerana Chandrashekar
 5. Avijit
-
-Project:
-Prediction for trending videos on youtube in US.
 
 Data and source description:
 Trending YouTube Statistics by Mitchell J,Kaggel datasets
