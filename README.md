@@ -1,6 +1,7 @@
 # KDD-Project
 
 ### Project: Prediction for trending videos on YouTube in USA.
+The objective of the project is to predict trending videos based on the number of views, likes, dislikes, number of comments, published date and trending date. 
 
 ### Team:
 1. Narendra Pahuja
@@ -9,48 +10,50 @@
 4. Prerana Chandrashekar
 5. Avijit
 
-Data and source description:
-Trending YouTube Statistics by Mitchell J,Kaggel datasets
-The dataset contains several months  of data on daily trending YouTube videos. We have selected data for US for our Analytics.
+### Data and source description:
+In this project we are using Trending YouTube Statistics by Mitchell J, Kaggle datasets. 
+This dataset includes several months (and counting) of data on daily trending YouTube videos. Data is included for the US, GB, DE, CA, FR, RU, MX, KR, JP and IN regions (USA, Great Britain, Germany, Canada, France, Russia, Mexico, South Korea, Japan and India respectively), with up to 200 listed trending videos per day. We have selected US for our Analytics.
 The dataset has following attributes:
-video_id
-trending_date
-title
-channel_title
-category_id
-publish_time
-tags
-views
-likes
-dislikes
-comment_count
-thumbnail_link
-comments_disabled
-ratings_disabled
-video_error_or_removed
-description
-URL of the source:https://www.kaggle.com/datasnaek/youtube-new#US_category_id.json
+video_id – ID of the video
+trending_date – Date the video started to trend
+title – Title of the video 
+channel_title – Channel title of the video
+category_id – Category ID of the video 
+publish_time – Time the video was published
+tags – Places this video was tagged
+views – Number of views for the video
+likes – Number of likes for the video
+dislikes – Number of dislikes for the video
+comment_count – Number of comments for the video
+thumbnail_link – Links to thumbnail this video
+comments_disabled – States True if the comments for the video is disabled else False
+ratings_disabled – States True if the rating is disabled for the video else False
+video_error_or_removed – States True if the video has any error or if it is removed else states False.
+description – Description of the video
+URL of the source: https://www.kaggle.com/datasnaek/youtube-new#USvideos.csv
 
-Data Understanding and EDA
+### Application of the CRISP-DM Process: 
 
-Using this data we will Analyse how these factors will affect on the popularity of the videos
+#### * Domain Knowledge (document sources):
+The YouTube trending video dataset link: https://www.kaggle.com/datasnaek/youtube-new#USvideos.csv
 
+#### * Data Understanding and EDA:
+The relation between variables in the YouTube trending dataset is analyzed using graphical representation. The categorical and numerical features are studied to gain better understanding of the dataset to perform machine learning algorithms on the dataset.
 
-Data Preparation:
+#### * Data Preparation:
 1. We will merge data from Json and csv file considering id and category_id respectively as common reference to get the category title of video.
 2. After merging we will convert the date column in proper format.
 3. Clean data by removing redundant.
 4. Pre-process the missing values.
-5. Visualize the data with differnet plots to find the correlation between variables.
+5. Visualize the data with different plots to find the correlation between variables.
 
-Machine Learning
+#### * Machine Learning:
+We will analyze the factors affecting the popularity of trending videos using unsupervised learning -clustering.
 
-Evaluation
+#### * Evaluation:
+Evaluating popularity based on likes and comments.
+Evaluating positive or negative comments based on category. 
+Evaluating popularity based on positive or negative event which has an effect on the trending factor of a video.
 
-Conclusion
-
-
-Application of the CRISP-DM Process (this is the group plan - this can be altered as the project progresses and new knowledge is gained - this will be a summary of the work to be completed - the main information will be in the notebook(s) in code and markdown)
-The project aims at predicting the trending videos based on number of views,likes,unlikes,number of comments,published date and trending date
-Establishes relationship between popularity and likes
-
+### Conclusion:
+The YouTube trending dataset is used to predict the type of video trending on YouTube depending on the number of likes, comments, reactions etc.
