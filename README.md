@@ -14,22 +14,23 @@ The objective of the project is to predict trending videos based on the number o
 In this project we are using Trending YouTube Statistics by Mitchell J, Kaggle datasets. 
 This dataset includes several months (and counting) of data on daily trending YouTube videos. Data is included for the US, GB, DE, CA, FR, RU, MX, KR, JP and IN regions (USA, Great Britain, Germany, Canada, France, Russia, Mexico, South Korea, Japan and India respectively), with up to 200 listed trending videos per day. We have selected US for our Analytics.
 The dataset has following attributes:
-video_id – ID of the video
-trending_date – Date the video started to trend
-title – Title of the video 
-channel_title – Channel title of the video
-category_id – Category ID of the video 
-publish_time – Time the video was published
-tags – Places this video was tagged
-views – Number of views for the video
-likes – Number of likes for the video
-dislikes – Number of dislikes for the video
-comment_count – Number of comments for the video
-thumbnail_link – Links to thumbnail this video
-comments_disabled – States True if the comments for the video is disabled else False
-ratings_disabled – States True if the rating is disabled for the video else False
-video_error_or_removed – States True if the video has any error or if it is removed else states False.
-description – Description of the video
+* video_id – ID of the video
+* trending_date – Date the video started to trend
+* title – Title of the video 
+* channel_title – Channel title of the video
+* category_id – Category ID of the video 
+* publish_time – Time the video was published
+* tags – Places this video was tagged
+* views – Number of views for the video
+* likes – Number of likes for the video
+* dislikes – Number of dislikes for the video
+* comment_count – Number of comments for the video
+* thumbnail_link – Links to thumbnail this video
+* comments_disabled – States True if the comments for the video is disabled else False
+* ratings_disabled – States True if the rating is disabled for the video else False
+* video_error_or_removed – States True if the video has any error or if it is removed else states False.
+* description – Description of the video
+
 URL of the source: https://www.kaggle.com/datasnaek/youtube-new#USvideos.csv
 
 ### Application of the CRISP-DM Process: 
