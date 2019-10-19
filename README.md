@@ -8,7 +8,7 @@ The objective of the project is to predict trending videos based on the number o
 2. Akshay Popli
 3. Monika Chandrashekara
 4. Prerana Chandrashekar
-5. Avijit
+5. Avijit Jaiswal
 
 ### Data and source description:
 In this project we are using Trending YouTube Statistics by Mitchell J, Kaggle datasets. 
@@ -44,12 +44,12 @@ The relation between variables in the YouTube trending dataset is analyzed using
 #### * Data Preparation:
 1. We will merge data from Json and csv file considering id and category_id respectively as common reference to get the category title of video.
 2. After merging we will convert the date column in proper format.
-3. Clean data by removing redundant.
+3. Clean data by removing redundant values.
 4. Pre-process the missing values.
 5. Visualize the data with different plots to find the correlation between variables.
 
 #### * Machine Learning:
-We will analyze the factors affecting the popularity of trending videos using unsupervised learning -clustering.
+We will analyze the factors affecting the popularity of trending videos using unsupervised learning -clustering. We shall cluster videos based on common categories and tags and determine trending videos based on values of features like likes, ratings etc.
 
 #### * Evaluation:
 Evaluating popularity based on likes and comments.
@@ -57,4 +57,4 @@ Evaluating positive or negative comments based on category.
 Evaluating popularity based on positive or negative event which has an effect on the trending factor of a video.
 
 ### Conclusion:
-The YouTube trending dataset is used to predict the type of video trending on YouTube depending on the number of likes, comments, reactions etc.
+The YouTube trending dataset is used to predict the type of video trending on YouTube depending on the number of likes, comments, reactions etc. Unsupervised learning- clustering algorithm is used to categorize videos and predict the popular ones based on different features.
