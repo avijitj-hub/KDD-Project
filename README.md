@@ -58,7 +58,10 @@ Evaluating popularity based on positive or negative event which has an effect on
 
 ### Conclusion:
 The YouTube trending dataset is used to predict the type of video trending on YouTube depending on the number of likes, comments, reactions etc. 
-We have applied preprocessing on the Data and handles missing values and cleaned the columns .Also we have applied binning on the views and we can find that we can discard videos less than 400k views because most of the trending videos are above this range.We find the relation between the variables in the dataset.Further in our next deliverable we will apply deeplearning to find factors which make videos trending on youtube.
-Further we are going to use this model to find what kind videos are viral after an event or incident like shooting or cyclone.
+We have preprocessed the data in the YouTube trending videos dataset and handled missing values. Binning method is used on views column of the dataset, videos having views less than 400k can be discarded as a video is said to be trending if it has more number of views. We also find the relation between the variables in the dataset. After performing Exploratory Data Analysis we determine the features such as : 'likes', 'dislikes' and 'comment_count' can be used to determine if a video on YouTube is trending or not.
+
+#### Next step:
+* We will use machine learning methods such as Deep learning and clustering to determine the videos that are trending on YouTube.
+
 
 Note: Unsupervised learning- clustering algorithm is used to categorize videos and predict the popular ones based on different features.
