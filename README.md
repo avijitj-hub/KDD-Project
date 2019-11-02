@@ -57,4 +57,8 @@ Evaluating positive or negative comments based on category.
 Evaluating popularity based on positive or negative event which has an effect on the trending factor of a video.
 
 ### Conclusion:
-The YouTube trending dataset is used to predict the type of video trending on YouTube depending on the number of likes, comments, reactions etc. Unsupervised learning- clustering algorithm is used to categorize videos and predict the popular ones based on different features.
+The YouTube trending dataset is used to predict the type of video trending on YouTube depending on the number of likes, comments, reactions etc. 
+We have applied preprocessing on the Data and handles missing values and cleaned the columns .Also we have applied binning on the views and we can find that we can discard videos less than 400k views because most of the trending videos are above this range.We find the relation between the variables in the dataset.Further in our next deliverable we will apply deeplearning to find factors which make videos trending on youtube.
+Further we are going to use this model to find what kind videos are viral after an event or incident like shooting or cyclone.
+
+Note: Unsupervised learning- clustering algorithm is used to categorize videos and predict the popular ones based on different features.
