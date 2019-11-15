@@ -49,12 +49,12 @@ The relation between variables in the YouTube trending dataset is analyzed using
 5. Visualize the data with different plots to find the correlation between variables.
 
 #### * Machine Learning:
-We will analyze the factors affecting the popularity of trending videos using unsupervised learning -clustering. We shall cluster videos based on common categories and tags and determine trending videos based on values of features like likes, ratings etc.
+We will analyze the factors affecting the popularity of trending videos using Kmeans clustering. We shall cluster videos based on common categories and tags and determine trending videos based on values of features like likes, ratings etc.
 
 #### * Evaluation:
 Evaluating popularity based on likes and comments.
 Evaluating positive or negative comments based on category. 
-Evaluating popularity based on positive or negative event which has an effect on the trending factor of a video.
+Evaluating how a positive or negative event effect popularity of particular category of videos using the tags and the event date  
 
 ### Conclusion:
 The YouTube trending dataset is used to predict the type of video trending on YouTube depending on the number of likes, comments, reactions etc. 
