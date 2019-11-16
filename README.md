@@ -53,6 +53,8 @@ We will analyze the factors affecting the popularity of trending videos using Km
 
 We will do sentimental analyses that is, we will take an event / incident date and will find out what other videos became in trending in next 10 days after that incident took place. Based on the tags we will cluster them and find out scatter points in scatter plot in every cluster and take out the cluster with highest scatter points. This will give us what kind of videos were in trending after that incident.
 
+As Kmeans clustering is most suitable to group similar data points together and discover underlying patterns, we will follow this approach and make the clusters based on common tags in videos.
+
 #### * Evaluation:
 Evaluating popularity based on likes and comments.
 Evaluating positive or negative comments based on category. 
