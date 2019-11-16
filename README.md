@@ -49,7 +49,7 @@ The relation between variables in the YouTube trending dataset is analyzed using
 5. Visualize the data with different plots to find the correlation between variables.
 
 #### * Machine Learning:
-We will analyze the factors affecting the popularity of trending videos using Kmeans clustering. We shall cluster videos based on common categories and tags and determine trending videos based on values of features like likes, ratings etc.
+We will analyze the factors affecting the popularity of trending videos using Kmeans clustering and Hierarchial clustering . We will cluster videos based on common categories and tags and determine trending videos based on values of features like likes, ratings etc.
 
 #### * Evaluation:
 Evaluating popularity based on likes and comments.
