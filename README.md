@@ -49,11 +49,9 @@ The relation between variables in the YouTube trending dataset is analyzed using
 5. Visualize the data with different plots to find the correlation between variables.
 
 #### * Machine Learning:
-We will analyze the factors affecting the popularity of trending videos using Kmeans clustering and Hierarchial clustering . We will cluster videos based on common categories and tags and determine trending videos based on values of features like likes, ratings etc.
+We will analyze the factors affecting the popularity of trending videos using <b>K-means clustering</b> and <b>Hierarchial clustering</b>. We will cluster videos based on common categories and tags and determine trending videos based on values of features like likes, ratings etc.
 
-We will do sentimental analyses that is, we will take an event / incident date and will find out what other videos became in trending in next 10 days after that incident took place. Based on the tags we will cluster them and find out scatter points in scatter plot in every cluster and take out the cluster with highest scatter points. This will give us what kind of videos were in trending after that incident.
-
-As Kmeans clustering is most suitable to group similar data points together and discover underlying patterns, we will follow this approach and make the clusters based on common tags in videos.
+We will do sentimental analysis that is, we will take an event / incident date and will find out what other videos became in trending in next 10 days after that incident took place. <br>Based on the tags, we will find data points with the densest scatters and use these densely populated points as cluster centres. We will then find out the cluster with highest scatter points. This will give us what kind of videos were the highest trending after that incident. <br>As K-means clustering is most suitable to group similar data points together and discover underlying patterns, we will follow this approach and make the clusters based on common tags in videos.
 
 #### * Evaluation:
 Evaluating popularity based on likes and comments.
