@@ -48,6 +48,9 @@ The relation between variables in the YouTube trending dataset is analyzed using
 4. Pre-process the missing values.
 5. Visualize the data with different plots to find the correlation between variables.
 
+#### * Handling Discrimination and bias:
+
+
 #### * Machine Learning:
 We will analyze the factors affecting the popularity of trending videos using <b>K-means clustering</b> and <b>Hierarchial clustering</b>. We will cluster videos based on common categories and tags and determine trending videos based on values of features like likes, ratings etc.
 
