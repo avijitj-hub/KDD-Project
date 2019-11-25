@@ -69,4 +69,4 @@ We have preprocessed the data in the YouTube trending videos dataset and handled
 * We will use machine learning methods such as Deep learning and clustering to determine the videos that are trending on YouTube.
 
 
-Note: Unsupervised learning- clustering algorithm is used to categorize videos and predict the popular ones based on different features.
+Note: Unsupervised learning- clustering algorithm is used to categorize videos based on different features.
