@@ -66,7 +66,7 @@ We have preprocessed the data in the YouTube trending videos dataset and handled
 
  #### Progress :
 Found the number of days between trending and published date, from that we deteremined the category of videos that have very less difference between these dates indicating they become popular quickly.
-Found that the number of videos published on weekends is usually less in comparison with the remaiming days of the week.
+Found that the number of videos published on weekends is usually less in comparison with the remaining days of the week.
 The number of videos trending on a particular day of the week seems to remain constant throughout the week by this we mean that  the videos are not trending on any  one particular day of the week, the day of the week has no influence on the trending factor.
 The videos with very short span of time difference between trending and published date are the ones which trend at the fastest rate, so we subseted this videos and determined the category where the videos usually have the tendency to trend quickly. The analysis revealed that entrainment category videos usually trend at the fastest rate. 
 
