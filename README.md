@@ -52,7 +52,6 @@ The relation between variables in the YouTube trending dataset is analyzed using
 
 
 #### * Machine Learning:
-We will analyze the factors affecting the popularity of trending videos using <b>K-means clustering</b> and <b>Hierarchial clustering</b>. We will cluster videos based on common categories and tags and determine trending videos based on values of features like likes, ratings etc.
 
 We will do sentimental analysis that is, we will take an event / incident date and will find out what other videos became in trending in next 10 days after that incident took place. <br>Based on the tags, we will find data points with the densest scatters and use these densely populated points as cluster centres. We will then find out the cluster with highest scatter points. This will give us what kind of videos were the highest trending after that incident. <br>As K-means clustering is most suitable to group similar data points together and discover underlying patterns, we will follow this approach and make the clusters based on common tags in videos. <br><br> We will use hierarchical clustering to associate related videos on the basis of their associativity. We shall use dendrograms to visualize associativity and set dendrogram threshold limits to separate unrelated videos. Hence we shall form clusters on the basis of hierarchical associativity. 
 
@@ -65,8 +64,8 @@ Evaluating how a positive or negative event effect popularity of particular cate
 The YouTube trending dataset is used to predict the type of video trending on YouTube depending on the number of likes, comments, reactions etc. 
 We have preprocessed the data in the YouTube trending videos dataset and handled missing values. Binning method is used on views column of the dataset, videos having views less than 400k can be discarded as a video is said to be trending if it has more number of views. We also find the relation between the variables in the dataset. After performing Exploratory Data Analysis we determine the features such as : 'likes', 'dislikes' and 'comment_count' can be used to determine if a video on YouTube is trending or not.
 
+ #### Progress :
+Found the number of days between trending and published date , from that we deteremined the videos have very less difference indicating they become popular quickly.
+
 #### Next step:
-* We will use machine learning methods such as Deep learning and clustering to determine the videos that are trending on YouTube.
-
-
-Note: Unsupervised learning- clustering algorithm is used to categorize videos based on different features.
+* we are going to use event based filtering on the dataset and will be parsing the tags aaasociated with each video to find which kinds of videos trend more during a particular event.
