@@ -49,7 +49,7 @@ The relation between variables in the YouTube trending dataset is analyzed using
 5. Visualize the data with different plots to find the correlation between variables.
 
 #### * Handling Discrimination and bias:
-
+There is no bias in our dataset as it does not contain any user related information.so we dont need to handle discrimination and bias
 
 #### * Machine Learning:
 
