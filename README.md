@@ -65,7 +65,10 @@ The YouTube trending dataset is used to predict the type of video trending on Yo
 We have preprocessed the data in the YouTube trending videos dataset and handled missing values. Binning method is used on views column of the dataset, videos having views less than 400k can be discarded as a video is said to be trending if it has more number of views. We also find the relation between the variables in the dataset. After performing Exploratory Data Analysis we determine the features such as : 'likes', 'dislikes' and 'comment_count' can be used to determine if a video on YouTube is trending or not.
 
  #### Progress :
-Found the number of days between trending and published date , from that we deteremined the videos have very less difference indicating they become popular quickly.
+Found the number of days between trending and published date, from that we deteremined the category of videos that have very less difference between these dates indicating they become popular quickly.
+Found that the number of videos published on weekends is usually less in comparison with the remaiming days of the week.
+The number of videos trending on a particular day of the week seems to remain constant throughout the week by this we mean that  the videos are not trending on any  one particular day of the week, the day of the week has no influence on the trending factor.
+The videos which very short span of time difference between trending and published date are the ones which trend at the fastest rate , so we subseted this videos and determined the category where the videos usually have the tendenccy to trend quickly. The analysis revealed that entrainment category videos usually trend at the fastest rate. 
 
 #### Next step:
 * we are going to use event based filtering on the dataset and will be parsing the tags aaasociated with each video to find which kinds of videos trend more during a particular event.
