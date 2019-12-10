@@ -42,20 +42,33 @@ The YouTube trending video dataset link: https://www.kaggle.com/datasnaek/youtub
 EDA is the process of visualizing and analyzing data to extract insights from it.It helps in summarizing important characteristics of data in order to gain better understanding of the dataset.The relation between variables in the YouTube trending dataset is analyzed using graphical representation. The categorical and numerical features are studied to gain better understanding of the dataset to perform machine learning algorithms on the dataset.We have analyzed the data using various graphs and plots like bar plots, box whisker plot etc to uncover important relations between the data.
 
 #### Data Preparation:
-1. We will merge data from Json and csv file considering id and category_id respectively as common reference to get the category title of video.
+1. Merge data from Json and csv file considering id and category_id respectively as common reference to get the category title of video.
 2. After merging we will convert the date column in proper format.
 3. Clean data by removing redundant values.
-4. Pre-process the missing values.
-5. We have handled the missing values in description column.
-6. Also, we have replaced the pipelines in tags column.
-7. We have changed the format of "Trending date" and publish time to Datetime datatype.
-8. Also, we have dropped the records where Trending date is greater than Publish date, because this not possible.
+4. Handled the missing values in description column.
+5. Also, Replaced the pipelines in tags column.
+6. Changed the format of "Trending date" and publish time to Datetime datatype.
+7. A new column is added as "number of days" which shows the number of days between Trending date and Publish date.
+8. Also, Dropped the records where Trending date is greater than Publish date, because this not possible.
 9. The columns views, likes, dislikes are evaluated to see if they are normally distributed or not.
 10. Different groups of views are created using binning.
 11. Visualize the data with different plots to find the correlation between variables.
 
+
+#### Handling Discrimination and bias:
+There is no bias in our dataset as it does not contain any user related information.so we dont need to handle discrimination and bias
+
+#### Machine Learning:
+This is project we have used a Random Forest Regression model to predict the number of views based on various columns like number of likes, number of dislikes and the number of comments.Higher the number of likes, dislikes and comments indicates that the video has higher number of views.By using this model we get a accurate predictions because Random Forest model uses a combined knowledge wherein the result from various decision trees is aggregated to give a final predictor.We can also see that there variables used to predict the number of views are highly co-reralted. We choose the best features inorder to make the predictions because we wanted to provide the model with optimal informations to make accurate prediction  <br><br> 
+
+#### Evaluation:
+The random forest model used to predict the number of views is giving a good accuracy rate, the the accuracy score on  both train and test model is very close this means the model is capable of making accurate predictions without overfitting or underfitting the data.
+Evaluating popularity based on likes and comments.
+Evaluating positive or negative comments based on category. 
+Evaluating how a positive or negative event effect popularity of particular category of videos using the tags and the event date.
+
 ### Interesting Features and Finding
-1. We have found that videos belong to "Entertainment" has highest count.
+1. Videos that belongs to "Entertainment" has highest count.
 2. The category "Music videos" has received the increased number of views, likes and comments.
 3. Games category has the maximum number of likes and the views are 5000000.
 4. The correlation matrix showed the high correlation between views, likes, dislikes and comment count.
@@ -65,19 +78,6 @@ EDA is the process of visualizing and analyzing data to extract insights from it
 8. The number of videos published from June to November is minimal.
 9. No videos going to be in trend in the month of July, August, September, October.
 10. Maximum number of videos published between 2pm to 6pm of the day.
-
-#### Handling Discrimination and bias:
-There is no bias in our dataset as it does not contain any user related information.so we dont need to handle discrimination and bias
-
-#### Machine Learning:
-
-This is project we have used a Random Forest Regression model to predict the number of views based on various columns like number of likes, number of dislikes and the number of comments.Higher the number of likes, dislikes and comments indicates that the video has higher number of views.By using this model we get a accurate predictions because Random Forest model uses a combined knowledge wherein the result from various decision trees is aggregated to give a final predictor.We can also see that there variables used to predict the number of views are highly co-reralted. We choose the best features inorder to make the predictions because we wanted to provide the model with optimal informations to make accurate prediction  <br><br> 
-
-#### Evaluation:
-The random forest model used to predict the number of views is giving a good accuracy rate, the the accuracy score on  both train and test model is very close this means the model is capable of making accurate predictions without overfitting or underfitting the data.
-Evaluating popularity based on likes and comments.
-Evaluating positive or negative comments based on category. 
-Evaluating how a positive or negative event effect popularity of particular category of videos using the tags and the event date  
 
 ### Conclusion and Important Results:
 The YouTube trending dataset is used to predict the type of video trending on YouTube depending on the number of likes, comments, reactions etc. 
