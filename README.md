@@ -73,5 +73,5 @@ The number of videos trending on a particular day of the week seems to remain co
 The videos with very short span of time difference between trending and published date are the ones which trend at the fastest rate, so we subseted this videos and determined the category where the videos usually have the tendency to trend quickly. The analysis revealed that entertainment category videos usually trend at the fastest rate. 
 
 #### Future Scope:
-*The future scope is that we can use event based filtering on the dataset and parse the tags associated with each video to find which kinds of videos trend more during a particular event.
-*There is also a scope to group videos into clusters of same catgeory like for example politics, music, sports etc.Now the main idea is that the videos belonging to the same cluster will have common tags.Tags like comedy, humor, funny, laugh etc can be grouped into one cluster and the category of this cluster can be comedy.
+The future scope is that we can use event based filtering on the dataset and parse the tags associated with each video to find which kinds of videos trend more during a particular event.
+There is also a scope to group videos into clusters of same catgeory like for example politics, music, sports etc.Now the main idea is that the videos belonging to the same cluster will have common tags.Tags like comedy, humor, funny, laugh etc can be grouped into one cluster and the category of this cluster can be comedy.
