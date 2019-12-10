@@ -46,9 +46,25 @@ EDA is the process of visualizing and analyzing data to extract insights from it
 2. After merging we will convert the date column in proper format.
 3. Clean data by removing redundant values.
 4. Pre-process the missing values.
-5. Visualize the data with different plots to find the correlation between variables.
+5. We have handled the missing values in description column.
+6. Also, we have replaced the pipelines in tags column.
+7. We have changed the format of "Trending date" and publish time to Datetime datatype.
+8. Also, we have dropped the records where Trending date is greater than Publish date, because this not possible.
+9. The columns views, likes, dislikes are evaluated to see if they are normally distributed or not.
+10. Different groups of views are created using binning.
+11. Visualize the data with different plots to find the correlation between variables.
 
-
+### * EDA and Summary findings
+1. We have find that videos belong to "Entertainment" has highest count.
+2. The category "Music videos" has received the increased number of views, likes and comments.
+3. Games category has the maximum number of likes and the views are 5000000.
+4. The correlation matrix showed the high correlation between views, likes, dislikes and comment count.
+5. Other finding we got is, the maximum videos published in 2017 and 2018.
+6. Entertainment and Music videos trended on same day they published as number of days between it published and trended is Zero(0).
+7. Film and Animation category of videos got more than 100000 views on the day they released.
+8. The number of videos published from June to November is minimal.
+9. No videos going to be in trend in the month of July, August, September, October.
+10. Maximum number of videos published between 2pm to 6pm of the day.
 
 #### * Handling Discrimination and bias:
 There is no bias in our dataset as it does not contain any user related information.so we dont need to handle discrimination and bias
@@ -59,9 +75,9 @@ This is project we have used a Random Forest Regression model to predict the num
 
 #### * Evaluation:
 The random forest model used to predict the number of views is giving a good acurracy rate, the the accuracy score on  both train and test model is very close this means the model is capable of making accurate predictions without overfitting or underfitting the data.
-Evaluated popularity based on likes and comments.
-Evaluated positive or negative comments based on category. 
- 
+Evaluating popularity based on likes and comments.
+Evaluating positive or negative comments based on category. 
+Evaluating how a positive or negative event effect popularity of particular category of videos using the tags and the event date  
 
 ### Conclusion and Important Results:
 The YouTube trending dataset is used to predict the type of video trending on YouTube depending on the number of likes, comments, reactions etc. 
@@ -75,4 +91,3 @@ The videos with very short span of time difference between trending and publishe
 #### Future Scope:
 The future scope is that we can use event based filtering on the dataset and parse the tags associated with each video to find which kinds of videos trend more during a particular event.
 There is also a scope to group videos into clusters of same catgeory like for example politics, music, sports etc.Now the main idea is that the videos belonging to the same cluster will have common tags.Tags like comedy, humor, funny, laugh etc can be grouped into one cluster and the category of this cluster can be comedy.
-Evaluating how a positive or negative event effect popularity of particular category of videos using the tags and the event date 
