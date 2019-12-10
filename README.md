@@ -59,9 +59,9 @@ This is project we have used a Random Forest Regression model to predict the num
 
 #### * Evaluation:
 The random forest model used to predict the number of views is giving a good acurracy rate, the the accuracy score on  both train and test model is very close this means the model is capable of making accurate predictions without overfitting or underfitting the data.
-Evaluating popularity based on likes and comments.
-Evaluating positive or negative comments based on category. 
-Evaluating how a positive or negative event effect popularity of particular category of videos using the tags and the event date  
+Evaluated popularity based on likes and comments.
+Evaluated positive or negative comments based on category. 
+ 
 
 ### Conclusion and Important Results:
 The YouTube trending dataset is used to predict the type of video trending on YouTube depending on the number of likes, comments, reactions etc. 
@@ -75,3 +75,4 @@ The videos with very short span of time difference between trending and publishe
 #### Future Scope:
 The future scope is that we can use event based filtering on the dataset and parse the tags associated with each video to find which kinds of videos trend more during a particular event.
 There is also a scope to group videos into clusters of same catgeory like for example politics, music, sports etc.Now the main idea is that the videos belonging to the same cluster will have common tags.Tags like comedy, humor, funny, laugh etc can be grouped into one cluster and the category of this cluster can be comedy.
+Evaluating how a positive or negative event effect popularity of particular category of videos using the tags and the event date 
