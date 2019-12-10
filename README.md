@@ -52,7 +52,7 @@ EDA is the process of visualizing and analyzing data to extract insights from it
 8. Dropped the records where Trending date is lesser than Publish date, because it is not possible for a video to trend even before its published.
 9. The columns views, likes, dislikes are evaluated to see if they are normally distributed or not.
 10. Different groups of views are created using binning.
-11. Visualize the data with different plots to find the correlation between variables.
+11. Visualized the data with different plots to find the correlation between variables.
 
 
 #### Handling Discrimination and bias:
