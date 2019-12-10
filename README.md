@@ -39,7 +39,7 @@ URL of the source: https://www.kaggle.com/datasnaek/youtube-new#USvideos.csv
 The YouTube trending video dataset link: https://www.kaggle.com/datasnaek/youtube-new#USvideos.csv
 
 #### * Data Understanding and EDA:
-The relation between variables in the YouTube trending dataset is analyzed using graphical representation. The categorical and numerical features are studied to gain better understanding of the dataset to perform machine learning algorithms on the dataset.
+EDA is the process of visualizing and analyzing data to extract insights from it.It helps in summarizing important characteristics of data in order to gain better understanding of the dataset.The relation between variables in the YouTube trending dataset is analyzed using graphical representation. The categorical and numerical features are studied to gain better understanding of the dataset to perform machine learning algorithms on the dataset.We have analyzed the data using various graphs and plots like
 
 #### * Data Preparation:
 1. We will merge data from Json and csv file considering id and category_id respectively as common reference to get the category title of video.
