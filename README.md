@@ -1,7 +1,7 @@
 # KDD-Project
 
 ### Project: Prediction for trending videos on YouTube in USA.
-The objective of the project is to predict trending videos based on the number of views, likes, dislikes, number of comments, published date and trending date. 
+The objective of the project is to predict number of views for a trending videos based on the number of likes, dislikes, number of comments, published date and trending date. 
 
 ### Team:
 1. Narendra Pahuja
