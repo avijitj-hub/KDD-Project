@@ -42,14 +42,14 @@ The YouTube trending video dataset link: https://www.kaggle.com/datasnaek/youtub
 EDA is the process of visualizing and analyzing data to extract insights from it.It helps in summarizing important characteristics of data in order to gain better understanding of the dataset.The relation between variables in the YouTube trending dataset is analyzed using graphical representation. The categorical and numerical features are studied to gain better understanding of the dataset to perform machine learning algorithms on the dataset.We have analyzed the data using various graphs and plots like bar plots, box whisker plot etc to uncover important relations between the data.
 
 #### Data Preparation:
-1. Merge data from Json and csv file considering id and category_id respectively as common reference to get the category title of video.
-2. After merging we will convert the date column in proper format.
-3. Clean data by removing redundant values.
+1. Merged data from Json and csv file considering id and category_id respectively as common reference to get the category title of video.
+2. After merging converted the date column to datatime format.
+3. Cleaned data by removing redundant values.
 4. Handled the missing values in description column.
-5. Also, Replaced the pipelines in tags column.
-6. Changed the format of "Trending date" and publish time to Datetime datatype.
-7. A new column is added as "number of days" which shows the number of days between Trending date and Publish date.
-8. Also, Dropped the records where Trending date is greater than Publish date, because this not possible.
+5. Removed the pipelines in tags column.
+6. Changed the format of Trending date and Published time to Datetime datatype.
+7. A new column is added as "number of days" which shows the number of days between Trending date and Published date.
+8. Dropped the records where Trending date is lesser than Publish date, because it is not possible for a video to trend even before its published.
 9. The columns views, likes, dislikes are evaluated to see if they are normally distributed or not.
 10. Different groups of views are created using binning.
 11. Visualize the data with different plots to find the correlation between variables.
