@@ -53,7 +53,7 @@ There is no bias in our dataset as it does not contain any user related informat
 
 #### * Machine Learning:
 
-This is project we have used a Random Forest Regression model to predict the number of views based on various columns like number of likes, number of dislikes and the number of comments.Higher the number of likes, dislikes and comments indicates that the video has higher number of views.By using this model we get a accurate predictions because Random Forest model uses a combined knowledge wherein the result from various decision trees is aggregated to give a final predictor.We can also see that there variables used to predict the number of views are highly co-reralted. We choose the best features inorder to make the predictions because we wanted to provide the model with optimal informations t make accurate prediction  <br><br> 
+This is project we have used a Random Forest Regression model to predict the number of views based on various columns like number of likes, number of dislikes and the number of comments.Higher the number of likes, dislikes and comments indicates that the video has higher number of views.By using this model we get a accurate predictions because Random Forest model uses a combined knowledge wherein the result from various decision trees is aggregated to give a final predictor.We can also see that there variables used to predict the number of views are highly co-reralted. We choose the best features inorder to make the predictions because we wanted to provide the model with optimal informations to make accurate prediction  <br><br> 
 
 #### * Evaluation:
 Evaluating popularity based on likes and comments.
