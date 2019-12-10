@@ -58,7 +58,7 @@ There is no bias in our dataset as it does not contain any user related informat
 This is project we have used a Random Forest Regression model to predict the number of views based on various columns like number of likes, number of dislikes and the number of comments.Higher the number of likes, dislikes and comments indicates that the video has higher number of views.By using this model we get a accurate predictions because Random Forest model uses a combined knowledge wherein the result from various decision trees is aggregated to give a final predictor.We can also see that there variables used to predict the number of views are highly co-reralted. We choose the best features inorder to make the predictions because we wanted to provide the model with optimal informations to make accurate prediction  <br><br> 
 
 #### * Evaluation:
-The random forest model used to predict the number of views is giving a good acurracy rate, the the accuracy score on  both train and test model is very close this means the model is capable of making accurate predictions without overfitting or underfitting the data
+The random forest model used to predict the number of views is giving a good acurracy rate, the the accuracy score on  both train and test model is very close this means the model is capable of making accurate predictions without overfitting or underfitting the data.This was evaluated with the help of a confusion matrix.
 Evaluating popularity based on likes and comments.
 Evaluating positive or negative comments based on category. 
 Evaluating how a positive or negative event effect popularity of particular category of videos using the tags and the event date  
