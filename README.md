@@ -62,10 +62,11 @@ There is no bias in our dataset as it does not contain any user related informat
 This is project we have used a Random Forest Regression model to predict the number of views based on various columns like number of likes, number of dislikes and the number of comments.Higher the number of likes, dislikes and comments indicates that the video has higher number of views.By using this model we get a accurate predictions because Random Forest model uses a combined knowledge wherein the result from various decision trees is aggregated to give a final predictor.We can also see that there variables used to predict the number of views are highly co-reralted. We choose the best features inorder to make the predictions because we wanted to provide the model with optimal informations to make accurate prediction  <br><br> 
 
 #### Evaluation:
+YouTube trending video data set is analyzed in this project. Random Forest Regression and logistic regression are used to predict the number of views for trending videos. For both Random Forest Regression and Logistic Regression the accuracy of the training and test set is almost equal, from this we can say the model is not overfit or underfit. The accuracy for predicting the number of views is high for both Random Forest Regression (97.69 %) and Logistic Regression(97.18 %). Since the accuracy is greater for Random Forest Regression, it is best model to predict the number of views for YouTube trending data set.
 The random forest model used to predict the number of views is giving a good accuracy rate, the the accuracy score on  both train and test model is very close this means the model is capable of making accurate predictions without overfitting or underfitting the data.
-Evaluating popularity based on likes and comments.
-Evaluating positive or negative comments based on category. 
-Evaluating how a positive or negative event effect popularity of particular category of videos using the tags and the event date.
+Evaluated popularity based on likes and comments.
+Evaluated positive or negative comments based on category. 
+
 
 ### Interesting Features and Finding
 1. Videos that belongs to "Entertainment" has highest count.
@@ -91,3 +92,4 @@ The videos with very short span of time difference between trending and publishe
 #### Future Scope:
 The future scope is that we can use event based filtering on the dataset and parse the tags associated with each video to find which kinds of videos trend more during a particular event.
 There is also a scope to group videos into clusters of same catgeory like for example politics, music, sports etc.Now the main idea is that the videos belonging to the same cluster will have common tags.Tags like comedy, humor, funny, laugh etc can be grouped into one cluster and the category of this cluster can be comedy.
+Evaluating how a positive or negative event effect popularity of particular category of videos using the tags and the event date.
