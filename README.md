@@ -1,4 +1,9 @@
-# KDD-Project
+### KDD-Project
+
+### Instruction to run the project
+1. Take the clone of repository in local system.
+2. As our dataset or .csv file is zipped, you need to unzip that, the only you will be able to access the dataset.
+3. Then Run jupyter file, you will be able to access the dataframe.
 
 ### Project: Prediction for trending videos on YouTube in USA.
 The objective of the project is to predict number of views for a trending videos based on the number of likes, dislikes, number of comments, published date and trending date. 
