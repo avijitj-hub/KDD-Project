@@ -11,9 +11,9 @@ The objective of the project is to predict number of views for a trending videos
 ### Team:
 1. Narendra Pahuja
 2. Akshay Popli
-3. Monika Chandrashekara
+3. Avijit Jaiswal
 4. Prerana Chandrashekar
-5. Avijit Jaiswal
+5. Monika Chandrashekara
 
 ### Data and source description:
 In this project we are using Trending YouTube Statistics by Mitchell J, Kaggle datasets. 
